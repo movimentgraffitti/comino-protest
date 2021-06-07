@@ -21,8 +21,8 @@
     <section class="callto-area relative">
       <div class="container">
         <div class="row d-flex callto-wrap justify-content-between pt-40 pb-40">
-          <h3 class="text-white">Please Us stop them and Donate now</h3>
-          <a href="#" class="head-btn head-btn2 btn text-uppercase">Donate Now</a>
+          <h3 class="text-white">Help Us stop them and Donate now</h3>
+          <a href="#donate" class="head-btn head-btn2 btn text-uppercase">Donate Now</a>
         </div>
       </div>
     </section>

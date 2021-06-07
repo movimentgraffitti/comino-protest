@@ -1,5 +1,7 @@
 import Repository from "./Repository";
 
+const campaignId = process.env.VUE_APP_CAMPAIGN_ID;
+
 export default {
     postDonation(donation) {
         return Repository.post(
@@ -8,13 +10,11 @@ export default {
                 customer: {
                     email: donation.email,
                     name: donation.name,
-                    surname: donation.surname,
-                    mobile: donation.mobile,
-                    address: donation.address,
-                    locality: donation.locality
+                    surname: donation.surname
                 },
                 amount: donation.amount,
-                subscribeToNewsLetter: donation.subscribeToNewsLetter
+                subscribeToNewsLetter: donation.subscribeToNewsLetter,
+                campaignId: campaignId
             }
         );
     },

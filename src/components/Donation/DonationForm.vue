@@ -17,7 +17,7 @@
       </div>
 
       <div class="col-lg-12 d-flex justify-content-end send-btn">
-        <button class="submit-btn primary-btn mt-20 text-uppercase " v-on:click="donationClick">donate<span class="lnr lnr-arrow-right"></span></button>
+        <span class="submit-btn primary-btn mt-20 text-uppercase " v-on:click="donationClick">donate<span class="lnr lnr-arrow-right"></span></span>
       </div>
       <div class="alert-msg"></div>
     </div>
@@ -37,18 +37,22 @@ export default {
         email: null,
         amount: null,
         message: null,
-      }
+      },
     }
   },
   methods: {
     donationClick() {
-      console.log(this.donationDetails)
       RepositoryFactory
           .get('donation')
           .postDonation(this.donationDetails)
           .then(
               response => {
-                console.log(response)
+                this.$emit('donationCreated', response.data.data)
+              }
+          )
+          .catch(
+              error => {
+                this.$emit('hasError', error);
               }
           )
     }

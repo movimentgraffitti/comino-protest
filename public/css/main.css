@@ -3,3 +3,11 @@
 .logo img {
     max-width: 150px;
 }
+
+#donate {
+    color: #c2d0d5;
+}
+
+.donate-area p.p-red {
+    color: #e82b33;
+}
