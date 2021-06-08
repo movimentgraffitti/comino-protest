@@ -49,7 +49,7 @@ export default {
           )
           .catch(
               reason => {
-                console.log('Error', reason)
+                this.$emit('paymentError', reason)
               }
           )
     },
