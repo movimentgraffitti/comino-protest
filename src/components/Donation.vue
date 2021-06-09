@@ -11,10 +11,12 @@
       <div class="row d-flex justify-content-center">
         <div class="col-lg-6 contact-left">
           <div class="single-info">
-            <h2>Why we want to stop ITS Project</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In metus leo, laoreet quis eros id, cursus mattis libero. Pellentesque condimentum mauris erat, in commodo metus varius sit amet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec posuere nisi sit amet urna ultrices lacinia. Nullam et neque eu massa varius fringilla vitae sit amet elit. Praesent placerat odio arcu. Nulla nisi erat, pretium ac elementum eu, vestibulum quis ex. Quisque eget ante commodo, suscipit augue a, placerat mi. Sed consectetur leo eget turpis pulvinar, id aliquet nulla aliquam. Sed aliquet nibh justo, vestibulum dictum sapien lobortis eget. Etiam tempor dictum odio consequat interdum. Nulla euismod feugiat molestie. In iaculis mattis ex, non pharetra magna eleifend vitae. Etiam nisi massa, tincidunt ac convallis eget, posuere eu erat. In ac enim non massa iaculis dictum sit amet nec nibh. Etiam sodales, arcu vel finibus vehicula, elit mauris varius ipsum, vitae iaculis lorem odio in ligula.
-            </p>
+            <h2>Your contribution will allow us to continue the fight against the DB monstrosity</h2>
+            <p>The Planning Authority (PA) has given its go ahead to the DB group’s project:  two 18-storey towers and a 12-storey hotel on public land in Pembroke (the ex-ITS site).  Situated in a residential area, the project will impact important historical sites and areas of great natural sensitivity.</p>
+            <p>The PA initially approved the ITS-DB project in 2018. A strong public response to a call for donations allowed us to fight multiple legal battles that ultimately led to the cancellation of the permit.</p>
+            <p>We are now determined to continue fighting this monstrosity by mounting further legal actions against this threat to our quality of life and our environment. We need everyone’s help for this. Legal actions against such a massive project entail significant legal and professional fees that we will only be able to sustain with the public’s contributions.</p>
+            <p>Everyone is against DB’s monstrosity - three Local Councils, several organisations and thousands of residents and objectors. We cannot let big business and public authorities run roughshod over the people’s will to protect its environment and quality of life.</p>
+            <p>You contribution - big or small - makes a huge difference!</p>
           </div>
         </div>
         <div class="col-lg-6 contact-right">
@@ -26,7 +28,7 @@
       </div>
       <div class="row d-flex justify-content-center">
         <div class="col-lg-12">
-          <img src="img/payment-form-bg.jpg" class="img-fluid">
+          <img src="img/payment-form-bg.png" class="img-fluid">
         </div>
       </div>
     </div>
