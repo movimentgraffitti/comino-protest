@@ -11,7 +11,7 @@
         <input  v-model="donationDetails.email" name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="form-control mt-20" required="" type="email">
       </div>
       <div class="col-lg-12 d-flex flex-column">
-        <input v-model="donationDetails.amount"  placeholder="Donation amount (EUR)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Donation amount (USD)'" class="form-control mt-20" required="" type="text">
+        <input v-model="donationDetails.amount"  placeholder="Donation amount (EUR)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Donation amount (USD)'" class="form-control mt-20" required="" type="number">
 
         <textarea class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required="" v-model="donationDetails.message"></textarea>
       </div>
@@ -35,7 +35,7 @@ export default {
         name: null,
         surname: null,
         email: null,
-        amount: null,
+        amount: 5,
         message: null,
       },
     }
