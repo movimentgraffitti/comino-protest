@@ -16,7 +16,7 @@
             <p>The PA initially approved the ITS-DB project in 2018. A strong public response to a call for donations allowed us to fight multiple legal battles that ultimately led to the cancellation of the permit.</p>
             <p>We are now determined to continue fighting this monstrosity by mounting further legal actions against this threat to our quality of life and our environment. We need everyone’s help for this. Legal actions against such a massive project entail significant legal and professional fees that we will only be able to sustain with the public’s contributions.</p>
             <p>Everyone is against DB’s monstrosity - three Local Councils, several organisations and thousands of residents and objectors. We cannot let big business and public authorities run roughshod over the people’s will to protect its environment and quality of life.</p>
-            <p>You contribution - big or small - makes a huge difference!</p>
+            <p>Your contribution - big or small - makes a huge difference!</p>
           </div>
         </div>
         <div class="col-lg-6 contact-right">
@@ -24,10 +24,6 @@
               v-on:hasError="handleDonationError"
               v-on:donationCreated="onDonationCreated"
           />
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-12">
           <img src="img/payment-form-bg.png" class="img-fluid">
         </div>
       </div>
