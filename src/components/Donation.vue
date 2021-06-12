@@ -17,6 +17,22 @@
             <p>We are now determined to continue fighting this monstrosity by mounting further legal actions against this threat to our quality of life and our environment. We need everyone’s help for this. Legal actions against such a massive project entail significant legal and professional fees that we will only be able to sustain with the public’s contributions.</p>
             <p>Everyone is against DB’s monstrosity - three Local Councils, several organisations and thousands of residents and objectors. We cannot let big business and public authorities run roughshod over the people’s will to protect its environment and quality of life.</p>
             <p>Your contribution - big or small - makes a huge difference!</p>
+            <p>
+              <br/>
+            </p>
+            <ul>
+              <li>ACT Malta</li>
+              <li>BirdLife Malta</li>
+              <li>Din l-Art Ħelwa</li>
+              <li>Flimkien għal Ambjent Aħjar</li>
+              <li>Friends of the Earth Malta</li>
+              <li>Moviment Graffitti</li>
+              <li>Nature Trust Malta</li>
+              <li>Ramblers Association of Malta</li>
+              <li>Rota</li>
+              <li>Sustainable Built Environment Malta</li>
+              <li>The Archaeological Society Malta</li>
+            </ul>
           </div>
         </div>
         <div class="col-lg-6 contact-right">
