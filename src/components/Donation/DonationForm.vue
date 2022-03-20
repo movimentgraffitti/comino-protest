@@ -13,7 +13,7 @@
       <div class="col-lg-12 d-flex flex-column">
         <input v-model="donationDetails.amount"  placeholder="Donation amount (EUR)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Donation amount (EUR)'" class="form-control mt-20" required="" type="number">
 
-        <textarea class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required="" v-model="donationDetails.message"></textarea>
+        <textarea class="form-control mt-20" name="message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required="" v-model="donationDetails.message"></textarea>
       </div>
 
       <div class="col-lg-12 d-flex justify-content-end send-btn">
