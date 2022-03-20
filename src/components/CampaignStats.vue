@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row d-flex callto-wrap justify-content-between pt-40 pb-40">
-      <h3 class="text-white text-center">Total Amount Collected: €{{totalDonation}}</h3>
+      <h3 class="text-white text-center">Total Amount Collected: €{{formattedTotalDonation}}</h3>
       <span class="text-white">Amount is updated periodically, not immediately</span>
     </div>
   </div>
@@ -15,6 +15,11 @@ export default {
   data() {
     return {
       totalDonation: "0.00"
+    }
+  },
+  computed: {
+    formattedTotalDonation: function () {
+      return (Math.round(this.totalDonation * 100) / 100).toLocaleString();
     }
   },
   created() {
