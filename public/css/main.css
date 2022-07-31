@@ -14,3 +14,11 @@
 .callto-area {
     margin-top: -123px;
 }
+
+.donate-area .overlay-bg {
+    background-color: #363636;
+}
+
+h3 {
+    color: #c2d0d5;
+}
