@@ -11,7 +11,7 @@
         <input  v-model="donationDetails.email" name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="form-control mt-20" required="" type="email">
       </div>
       <div class="col-lg-6 d-flex flex-column">
-        <input  v-model="donationDetails.mobile" name="mobile" placeholder="Enter mobile"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter mobile'" class="form-control mt-20" required="" type="text">
+        <input  v-model="donationDetails.mobile" name="mobile" placeholder="Enter mobile number"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter mobile number'" class="form-control mt-20" required="" type="text">
       </div>
 
       <div class="col-lg-6 d-flex flex-column">
@@ -23,7 +23,7 @@
       <div class="col-lg-12 d-flex flex-column">
         <select class="form-control mt-20" name="departure" placeholder="Departure" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Departure'" required="" v-model="donationDetails.departure">
           <option value="malta" selected>Malta - Cirkewwa</option>
-          <option value="gozo">Gozo - Mgar</option>
+          <option value="gozo">Gozo - Mgarr</option>
         </select>
       </div>
       <div class="col-lg-12 d-flex flex-column">

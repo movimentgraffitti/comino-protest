@@ -11,8 +11,6 @@
       <div class="row d-flex justify-content-center">
         <div class="col-lg-6 contact-left">
           <div class="single-info">
-
-
             <h2>REGISTRATION – Kemmuna ta’ Kulħadd: Nieħdu Lura l-Blue Lagoon</h2>
             <p>We’re off to reclaim Comino, this time with the public’s participation. As the Blue Lagoon continues
               to be hijacked by commercial interests that have transformed this beach into their private lido, on
@@ -23,7 +21,7 @@
             <p>On completing your registration you will receive the receipt of payment and a second email with
               important information about the protest. You will be asked to show the emailed receipt prior to
               boarding.</p>
-            <p>Visit the Facebook event <a href="" target="_blank">here</a>.</p>
+            <p>Visit the Facebook event <a href="https://www.facebook.com/events/423734683127169" target="_blank">here</a>.</p>
             <p>For queries or assistance send us an email to info@movimentgraffitti.org.
               See you on Saturday 13 th August!</p>
             <p>
