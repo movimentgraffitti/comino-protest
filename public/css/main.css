@@ -14,3 +14,19 @@
 .callto-area {
     margin-top: -123px;
 }
+
+.donate-area .overlay-bg {
+    background-color: #363636;
+}
+
+h3 {
+    color: #c2d0d5;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.5rem + 2px);
+}
+
+option {
+    color: #0b0b0b;
+}

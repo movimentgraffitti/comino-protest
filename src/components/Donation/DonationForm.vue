@@ -7,17 +7,30 @@
       <div class="col-lg-6 d-flex flex-column">
         <input v-model="donationDetails.surname" placeholder="Enter your last name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your surname'" class="form-control mt-20" required="" type="text">
       </div>
-      <div class="col-lg-12 d-flex flex-column">
+      <div class="col-lg-6 d-flex flex-column">
         <input  v-model="donationDetails.email" name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="form-control mt-20" required="" type="email">
       </div>
-      <div class="col-lg-12 d-flex flex-column">
-        <input v-model="donationDetails.amount"  placeholder="Donation amount (EUR)" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Donation amount (EUR)'" class="form-control mt-20" required="" type="number">
-
-        <textarea class="form-control mt-20" name="message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required="" v-model="donationDetails.message"></textarea>
+      <div class="col-lg-6 d-flex flex-column">
+        <input  v-model="donationDetails.mobile" name="mobile" placeholder="Enter mobile"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter mobile'" class="form-control mt-20" required="" type="text">
       </div>
 
+      <div class="col-lg-6 d-flex flex-column">
+        <input  v-model="quantity" name="quantity" placeholder="Enter ticket amount"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter ticket amount'" class="form-control mt-20" required="" type="number">
+      </div>
+      <div class="col-lg-6 d-flex flex-column">
+        <input v-model="donationDetails.amount"  placeholder="Price" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Price (EUR)'" class="form-control mt-20" required="" disabled type="number">
+      </div>
+      <div class="col-lg-12 d-flex flex-column">
+        <select class="form-control mt-20" name="departure" placeholder="Departure" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Departure'" required="" v-model="donationDetails.departure">
+          <option value="malta" selected>Malta - Cirkewwa</option>
+          <option value="gozo">Gozo - Mgar</option>
+        </select>
+      </div>
+      <div class="col-lg-12 d-flex flex-column">
+        <textarea class="form-control mt-20" name="message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required="" v-model="donationDetails.message"></textarea>
+      </div>
       <div class="col-lg-12 d-flex justify-content-end send-btn">
-        <span class="submit-btn primary-btn mt-20 text-uppercase " v-on:click="donationClick">donate<span class="lnr lnr-arrow-right"></span></span>
+        <span class="submit-btn primary-btn mt-20 text-uppercase " v-on:click="donationClick">register<span class="lnr lnr-arrow-right"></span></span>
       </div>
       <div class="alert-msg"></div>
     </div>
@@ -31,13 +44,22 @@ export default {
   name: "DonationForm",
   data() {
     return {
+      quantity: 1,
+      price: 11,
       donationDetails: {
         name: null,
         surname: null,
         email: null,
-        amount: null,
+        mobile: null,
+        amount: 11,
         message: null,
+        departure: 'malta',
       },
+    }
+  },
+  watch: {
+    quantity(newQuant) {
+      this.donationDetails.amount = this.price * newQuant;
     }
   },
   methods: {
