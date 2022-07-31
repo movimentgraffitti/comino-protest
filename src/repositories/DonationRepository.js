@@ -13,7 +13,7 @@ export default {
                     surname: donation.surname
                 },
                 amount: donation.amount,
-                subscribeToNewsLetter: donation.subscribeToNewsLetter,
+                subscribeToNewsLetter: true,
                 campaignId: campaignId
             }
         );
