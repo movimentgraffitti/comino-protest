@@ -17,7 +17,8 @@ export default {
                 campaignId: campaignId,
                 metaData: [
                     {
-                        comment: donation.message
+                        comment: donation.message,
+                        departure: donation.departure
                     }
                 ]
             }

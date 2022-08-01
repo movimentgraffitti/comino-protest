@@ -15,7 +15,7 @@
       </div>
 
       <div class="col-lg-6 d-flex flex-column">
-        <input  v-model="quantity" name="quantity" placeholder="Enter ticket amount"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter ticket amount'" class="form-control mt-20" required="" type="number">
+        <input  v-model="quantity" name="quantity" placeholder="Enter ticket amount"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter ticket amount'" class="form-control mt-20" required="" type="number" min="1">
       </div>
       <div class="col-lg-6 d-flex flex-column">
         <input v-model="donationDetails.amount"  placeholder="Price" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Price (EUR)'" class="form-control mt-20" required="" disabled type="number">
