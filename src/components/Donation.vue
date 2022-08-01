@@ -30,6 +30,8 @@
 
             <h3>Il-Baħar, ix-Xatt,
               Kemmuna ta’ Kulħadd!</h3>
+
+            <small>On completing your registration you will receive the receipt of payment and a second email with important information about the protest. You will be asked to show the emailed receipt prior to boarding. (titled 'Donation to Moviment Graffitti')</small>
           </div>
         </div>
         <div class="col-lg-6 contact-right">
