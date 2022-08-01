@@ -14,7 +14,12 @@ export default {
                 },
                 amount: donation.amount,
                 subscribeToNewsLetter: true,
-                campaignId: campaignId
+                campaignId: campaignId,
+                metaData: [
+                    {
+                        comment: donation.message
+                    }
+                ]
             }
         );
     },
