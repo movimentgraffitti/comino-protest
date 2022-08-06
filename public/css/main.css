@@ -14,3 +14,7 @@
 .callto-area {
     margin-top: -123px;
 }
+
+.v-error {
+    color: #e82b33;
+}
