@@ -27,7 +27,7 @@ export default {
         return Repository.post(
             'donation/' + donationId + '/pay',
             {
-                payment_method_nonce: paymentMethodNonce,
+                paymentNonce: paymentMethodNonce,
                 paymentSource: 'brain_tree'
             }
         )
